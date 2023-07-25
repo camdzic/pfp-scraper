@@ -1,0 +1,16 @@
+# Main credentials
+creds:
+  token: "" ## Discord user token
+  limit_per_channel: 100 ## Number of messages to fetch in channel
+  threads: 2 ## Number of threads
+  check_images: true ## Whether to check for image existence on Discord CDN
+
+# Modules configuration
+modules:
+  shoes:
+    - id1
+  body:
+    - id1
+    - id2
+  anime:
+    - id1
